@@ -131,7 +131,7 @@ var stations = {
         "sitename": "מתחם מגדלאור",
         "gush": "11139",
         "helka": "9",
-        "address": "רחוב המסגר",
+        "address": "רחוב המסגר, קרית חיים",
         "contruction_year": "1956",
         "preservation_file_date" : "פברואר 2013",
         "file_editor_1" : "יעל פורמן נעמן",
