@@ -22,7 +22,7 @@ var stations = {
         "file_editor_1" : "אדר' טל פרידמן ראודניץ",
         "file_editor_2" : "אדר' לילך גינת נוימרק",
         "file_editor_3" : "",
-        "link_to_file" : "https://www.dropbox.com/s/ppys5ly5hjeklbg/%2B%C2%AC%2B%C3%96%2B%C2%BA_%2B%C2%AC%2B%C3%96%2B%C3%B3%2B%C3%B2%2B%C3%B4_%2B%C3%A6%2B%C3%96%2B%C2%AC_%2B%C3%B6%2B%C2%A2%2B%C3%A1%2B%C3%AD%2B%C2%AC_%2B%C3%A6%2B%C3%A6%2B%C2%AC_%2B%C2%AC%2B%C2%A3%2BP%2B%C3%B6.pdf?dl=0",
+        "link_to_file" : "https://www.dropbox.com/s/zwfwd6vwhvv9aqp/synagogue-bat-shlomo.pdf?dl=0",
         "thumbnail" : "img/bat-shlomo.png"
       }
     },
@@ -46,7 +46,7 @@ var stations = {
         "file_editor_2" : "",
         "file_editor_3" : "",
         "link_to_file" : "https://www.dropbox.com/s/upr9nov3nv7iqrg/%2B%C2%AC%2B%C3%B9%2B%C3%A1%2B%C2%AC_%2B%C3%B6%2B%C2%BA%2BP%2B%C3%B9_%2B%C3%A6%2BP%2B%C2%AC%2B%C2%A2%2B%C3%A1%2B%C3%B2%2B%C2%AC_%2B%C2%AC%2B%C3%89%2B%C3%A1%2B%C3%A1%2B%C3%96%2B%C2%A5_-_%2B%C3%86%2B%C3%A6%2B%C2%BF%2B%C3%96%2B%C3%89%2B%C2%A3_%2B%C2%BA%2B%C2%BF%2B%C3%BF%2B%C3%AD.pdf?dl=0",
-        "thumbnail" : "data/windmill.png"
+        "thumbnail" : "img/windmill.png"
       }
     },
     {
@@ -91,8 +91,8 @@ var stations = {
         "file_editor_1" : "אדר' גבריאל קרטס",
         "file_editor_2" : "אינג' יעקב שפר",
         "file_editor_3" : "",
-        "link_to_file" : "https://www.dropbox.com/s/hc9h4mpmbinyc8b/%2B%C3%A6%2B%C3%96%2B%C2%AC_%2B%C3%B1%2B%C3%B2%2B%C2%BA%2B%C3%AD__-_%2B%C3%86%2B%C3%A6%2B%C2%BF%2B%C3%96%2B%C3%89%2B%C2%A3_%2B%C2%BA%2B%C2%BF%2B%C3%BF%2B%C3%AD.pdf?dl=0",
-        "thumbnail" : ""
+        "link_to_file" : "https://www.dropbox.com/s/ioif6yx1pz455cp/bet-fux-gedera.pdf?dl=0",
+        "thumbnail" : "img/bet-fux.png"
       }
     },
     {
@@ -114,7 +114,7 @@ var stations = {
         "file_editor_1" : "אדר' לילך גינת נוימרק",
         "file_editor_2" : "אדר' טל פרידמן ראודניץ",
         "file_editor_3" : "",
-        "link_to_file" : "https://www.dropbox.com/s/dif4gkled4acqmq/%2B%C3%A6%2B%C3%96%2B%C2%AC_%2B%C2%BA%2B%C3%96%2B%C2%BF%2B%C3%B2%2B%C2%BF_-__%2B%C2%A2%2B%C3%B1%2B%C2%BF_%2B%C3%B9%2B%C3%AD%2B%C3%96%2B%C3%B4%2B%C3%96%2B%C2%A5_-_%2BP%2B%C3%B3%2B%C2%AC%2B%C3%B6_%2B%C2%AC%2B%C3%96%2BP%2B%C3%B2%2B%C2%BF.pdf?dl=0",
+        "link_to_file" : "https://www.dropbox.com/s/nqgcgt2hrr7jhdx/Bet-keror-kfar-hasidim.pdf?dl=0",
         "thumbnail" : "img/batei-kerur.png"
       }
     },
@@ -138,7 +138,7 @@ var stations = {
         "file_editor_2" : "אדר' אמיר פרוינדליך",
         "file_editor_3" : "",
         "link_to_file" : "https://www.dropbox.com/s/nexht9mc69tfe0v/MIGDAL-OR_28-03-13_fnl%20%281%29.pdf?dl=0",
-        "thumbnail" : ""
+        "thumbnail" : "img/migdalor.png"
       }
     },
     {
@@ -161,7 +161,7 @@ var stations = {
         "file_editor_2" : "",
         "file_editor_3" : "",
         "link_to_file" : "https://www.dropbox.com/s/0hg5hvlirn35cjs/hamaginim-natanzon-haifa.pdf?dl=0",
-        "thumbnail" : ""
+        "thumbnail" : "img/natanzon-maginim.png"
       }
     }
   ]
