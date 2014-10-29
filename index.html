@@ -8,7 +8,7 @@
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 	 <!--[if lte IE 8]>
     	 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
  	<![endif]-->
@@ -26,14 +26,32 @@
 		}
 	</style>
 
+	 <script src="js/fuse.js"></script>
+
+
 </head>
 <body>
 	<div id="map"></div>
 
 	<script src="data/historic_sites.js"></script>
-	<script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+s
+	<!-- Fuzzy Search -->
+	<script src="js/leaflet.fusesearch.js"></script>
+    <link rel="stylesheet" href="css/leaflet.fusesearch.css" />
+
+    <!-- Marker Cluster -->
+    <script src="js/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="dist/MarkerCluster.css" />
+	<link rel="stylesheet" href="dist/MarkerCluster.Default.css" />
+
+	<!-- JQuery -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 	<script type="text/javascript">
+
+		//var markersMap = new L.LayerGroup();
 
 		var siteIcon = L.icon({
 	    	//iconUrl		: 'https://raw.githubusercontent.com/johnantoni/maki/gh-pages/renders/town-hall-24.png',
@@ -50,6 +68,9 @@
 		function onEachFeature(feature, layer) {
 			// console.log(layer);
 
+			//aaa
+
+
 			p = feature.properties
 
 			marker_html='<div style="text-align: right">'
@@ -65,10 +86,12 @@
 							+ '<IMG SRC="' + p.thumbnail +'" WIDTH=160 HEIGHT=160>';							
 			
 			
-
 			marker_html +='</div>';
 
 			layer.bindPopup(marker_html);
+			feature.layer = layer;
+			markers.addLayer(layer);
+			
 		}
 
 		
@@ -93,6 +116,9 @@
 			minZoom: 9
 		}).addTo(map);
 
+		var markers = new L.MarkerClusterGroup();
+		//var markers = new L.FeatureGroup();
+
 		L.geoJson(stations,
 			{
 				pointToLayer: function (feature, latlng) {
@@ -104,7 +130,39 @@
 			    },
 				onEachFeature: onEachFeature,
 			}
-		).addTo(map);
+		);//.addTo(map);
+
+		markers.addTo(map);
+
+		//add fuse search control
+		var options = {
+        position: 'topright',
+        title: 'חיפוש',
+        placeholder: 'חפשו שם, מיקום, כתובת וכו',
+        maxResultLength: 10,
+        threshold: 0.5,
+        showInvisibleFeatures: true,
+        showResultFct: function(feature, container) {
+            props = feature.properties;
+            var name = L.DomUtil.create('b', null, container);
+            name.innerHTML = props.sitename;
+
+            container.appendChild(L.DomUtil.create('br', null, container));
+            info = '' + props.address + ', ' + props.contruction_year;
+            container.appendChild(document.createTextNode(info));
+
+            //getMarker(result).fire("click");
+	        }
+	    };
+
+
+		var searchCtrl = L.control.fuseSearch(options)
+		searchCtrl.addTo(map);
+
+		//searchCtrl.indexFeatures(stations, ['sitename', 'address', 'gush','helka','construction_year','p.file_editor_1','p.file_editor_2','p.file_editor_3']);
+		searchCtrl.indexFeatures(stations.features, ['sitename','address','construction_year']);
+
+
 	</script>
 
 <!--
@@ -121,4 +179,3 @@
 -->
 </body>
 </html>
-<!- Jerusalem, summer 2013 -->

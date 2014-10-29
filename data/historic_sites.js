@@ -69,7 +69,7 @@ var stations = {
         "file_editor_2" : "אדר' לילך גינת נוימרק",
         "file_editor_3" : "",
         "link_to_file" : "https://www.dropbox.com/s/u3nkip6ed6pfx3o/%2B%C3%86%2B%C3%A6%2B%C3%B3%2B%C2%AC_%2B%C3%B6%2B%C3%B1%2B%C3%B2%2B%C3%B3%2B%C2%A3_%2B%C3%A6%2B%C3%A1%2B%C3%96%2BP%2B%C3%96%2B%C3%A1%2B%C3%B6_-_%2BP%2B%C3%B3%2B%C2%AC%2B%C3%B6_%2B%C2%AC%2B%C3%96%2BP%2B%C3%B2%2B%C2%BF.pdf?dl=0",
-        "thumbnail" : ""
+        "thumbnail" : "img/givathapoel.png"
       }
     },
     {
@@ -115,7 +115,7 @@ var stations = {
         "file_editor_2" : "אדר' טל פרידמן ראודניץ",
         "file_editor_3" : "",
         "link_to_file" : "https://www.dropbox.com/s/dif4gkled4acqmq/%2B%C3%A6%2B%C3%96%2B%C2%AC_%2B%C2%BA%2B%C3%96%2B%C2%BF%2B%C3%B2%2B%C2%BF_-__%2B%C2%A2%2B%C3%B1%2B%C2%BF_%2B%C3%B9%2B%C3%AD%2B%C3%96%2B%C3%B4%2B%C3%96%2B%C2%A5_-_%2BP%2B%C3%B3%2B%C2%AC%2B%C3%B6_%2B%C2%AC%2B%C3%96%2BP%2B%C3%B2%2B%C2%BF.pdf?dl=0",
-        "thumbnail" : ""
+        "thumbnail" : "img/batei-kerur.png"
       }
     },
     {
@@ -138,6 +138,29 @@ var stations = {
         "file_editor_2" : "אדר' אמיר פרוינדליך",
         "file_editor_3" : "",
         "link_to_file" : "https://www.dropbox.com/s/nexht9mc69tfe0v/MIGDAL-OR_28-03-13_fnl%20%281%29.pdf?dl=0",
+        "thumbnail" : ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [   
+        34.999227,
+        32.817652
+        ]
+      },
+      "properties": {
+        "sitename": "מתחם נתנזון המגינים",
+        "gush": "",
+        "helka": "",
+        "address": "רחוב נתנזון שדרות המגינים",
+        "contruction_year": "סוף המאה ה-19 - תחילת המאה ה-20",
+        "preservation_file_date" : "אוקטובר 2004",
+        "file_editor_1" : "אדר' זיוה קולודני",
+        "file_editor_2" : "",
+        "file_editor_3" : "",
+        "link_to_file" : "https://www.dropbox.com/s/0hg5hvlirn35cjs/hamaginim-natanzon-haifa.pdf?dl=0",
         "thumbnail" : ""
       }
     }
