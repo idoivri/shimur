@@ -163,7 +163,76 @@ var stations = {
         "link_to_file" : "https://www.dropbox.com/s/0hg5hvlirn35cjs/hamaginim-natanzon-haifa.pdf?dl=0",
         "thumbnail" : "img/natanzon-maginim.png"
       }
-    }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [   
+        35.219758,
+        31.783492
+        ]
+      },
+      "properties": {
+        "sitename": "בית טיכו",
+        "gush": "",
+        "helka": "",
+        "address": "הרב קוק 7 ירושלים",
+        "contruction_year": "1865",
+        "preservation_file_date" : "פברואר 2014",
+        "file_editor_1" : "אדר' אמיר פרוינדליך",
+        "file_editor_2" : "אינג' עופר כהן",
+        "file_editor_3" : "",
+        "link_to_file" : "https://www.dropbox.com/s/xbvxxe0v9nkrsnx/Tyc3Mrch14.pdf?dl=0",
+        "thumbnail" : "img/ticho.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [   
+        35.393095,
+        32.552011
+        ]
+      },
+      "properties": {
+        "sitename": "מבנה מוסך אוקופרטיב 'בית שאן-חרוד' בצומת עין חרוד",
+        "gush": "",
+        "helka": "",
+        "address": "צומת חרוד",
+        "contruction_year": "1950",
+        "preservation_file_date" : "יוני 2014",
+        "file_editor_1" : "אדר' ענת אסתרליס",
+        "file_editor_2" : "אדר' עדי חימוביץ' אדניה",
+        "file_editor_3" : "",
+        "link_to_file" : "https://www.dropbox.com/s/v7min8wn95qg2k4/cooperative-garage-bet-shean-harod.pdf?dl=0",
+        "thumbnail" : "img/ein-harod.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [   
+        34.980619,
+        32.832036
+        ]
+      },
+      "properties": {
+        "sitename": "בת גלים, קרית אליעזר וקריית אליהו",
+        "gush": "10817-10819",
+        "helka": "",
+        "address": "בת גלים, קרית אליעזר וקריית אליהו",
+        "contruction_year": "1865",
+        "preservation_file_date" : "פברואר 2014",
+        "file_editor_1" : "אדר' זיווה קולודני",
+        "file_editor_2" : "",
+        "file_editor_3" : "",
+        "link_to_file" : "https://www.dropbox.com/s/3e6d90fmgazv3qm/shimur-bat-galim-ziva-kolodny.pdf?dl=0",
+        "thumbnail" : "img/bat-galim.png"
+      }
+    },           
   ]
 }
 
