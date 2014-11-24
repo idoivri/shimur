@@ -232,7 +232,30 @@ var stations = {
         "link_to_file" : "https://www.dropbox.com/s/3e6d90fmgazv3qm/shimur-bat-galim-ziva-kolodny.pdf?dl=0",
         "thumbnail" : "img/bat-galim.png"
       }
-    },           
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [   
+        34.951044,
+        32.443648
+        ]
+      },
+      "properties": {
+        "sitename": "תחנת רכבת חדרה מזרה",
+        "gush": "10024",
+        "helka": "1",
+        "address": "רחוב צה'ל, חדרה",
+        "contruction_year": "1920",
+        "preservation_file_date" : "יולי 2009",
+        "file_editor_1" : "רות ליברטי שלו",
+        "file_editor_2" : "",
+        "file_editor_3" : "",
+        "link_to_file" : "https://www.dropbox.com/s/afvkpho5q7ui3u9/%D7%AA%D7%99%D7%A7%20%D7%AA%D7%99%D7%A2%D7%95%D7%93%20%D7%AA%D7%97%D7%A0%D7%AA%20%D7%A8%D7%9B%D7%91%D7%AA%20%D7%97%D7%93%D7%A8%D7%94%20%D7%9E%D7%96%D7%A8%D7%97-%D7%A7%D7%95%D7%91%D7%A5%20%D7%9C%D7%A2%D7%99%D7%95%D7%9F-%20%D7%A8%D7%95%D7%AA%20%D7%9C%D7%99%D7%91%D7%A8%D7%98%D7%99%20%D7%A9%D7%9C%D7%95.pdf?dl=0",
+        "thumbnail" : "img/hadera-east.png"
+      }
+    },            
   ]
 }
 
